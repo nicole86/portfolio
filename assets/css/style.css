@@ -1,0 +1,163 @@
+head, body, body, header
+{
+	font-family: serif;
+}
+
+div, section,header
+{
+	text-align: left;
+}
+
+body
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+header
+{
+	display:inline-block;
+	width: 960px;
+	vertical-align: middle;
+	height:60px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+	a
+{
+	color: #777777;
+	text-decoration: none;
+}
+	input[type=text]
+{
+	width: 100%;
+}
+	label
+{
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-family: serif;
+	font-size: 12pt;
+	font-style: bold;
+	color: #777777;
+}
+	input[type=Submit]
+{
+	background: #4aaaa5;
+	color: white;
+	font-size: 12pt;
+	width: 100px;
+	padding: 6px;
+	margin-top: 15px;
+}
+#name
+{
+	width: 180px;
+	height: 60px;
+	background-color: #4aaaa5;
+	color: white;
+	border: #cccccc;
+	text-align: center;
+	margin-left: 60px;
+	line-height: 60px;
+	font-size: 18pt;
+	font-style: bold;
+	display: inline-block;
+}
+
+#navigation 
+{
+	margin-left: 437px;
+	vertical-align: middle;
+	font-family: serif;
+	font-size: 14pt;
+}
+
+#content_section 
+{
+	width: 960px;
+	height:500px;
+	background-color: #EFEFEF;
+	margin:0 auto;
+	float: left:;
+}
+#content_section img
+{
+	float: left;
+}
+
+#about_me
+{
+	width: 520px;
+	height: 380px;
+	background: white;
+	color: #4aaaa5;
+	border: solid #dddddd;
+	padding: 20px;
+	margin-left: 60px;
+	margin-top: 50px;
+	display: inline-block;
+	font-size: 16pt;
+	font-style: bold;
+}
+p
+{
+	font-size: 12pt;
+	color: #777777;
+	line-height: 150%;
+	padding: 10px;
+}
+
+#about_me img
+{
+	width: 30%;
+	height: 40%;
+	margin-right: 10px;
+}
+
+#connect_with_me
+{
+	float: right;
+	width: 195px;
+	height: 140px;
+	margin-top: 50px;
+	margin-right: 60px;
+	padding: 20px;
+	background-color: white;
+	color: #4aaaa5;
+	border: solid #dddddd;
+	display: inline-block;
+	text-align: center;
+	font-size: 14pt;
+	font-style: bold;
+}
+#connect_with_me img
+{
+	width: 50px;
+	height: 50px;
+}
+#line
+{
+	width: 150px;
+}
+
+footer {
+	width: 960px;
+	height: 60px;
+	background: #666666;
+	color: white;
+	border-top: 5px solid #4aaaa5;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 8pt;
+	line-height: 60px;
+}
+h3
+{
+	font-size: 30pt;
+	font-style: italic;
+	color: black;
+}
