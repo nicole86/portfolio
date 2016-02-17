@@ -215,5 +215,77 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 980px){
+	.main-section {
+		width: 500px;
+		margin-left: 80px;
+	}
+	
+	.auth-image {
+		width: 100%;
+	}
+	.work {
+		width: 100%;
+	}
+
+	.sidebar {
+		margin-right: 80px;
+	}
+
+	#logo {
+		margin-left: 80px;
+	}
+
+	nav {
+		margin-right: 80px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.main-section {
+		margin-left: 50px;
+	} 
+
+	.sidebar {
+		max-width: 100%;	
+	}
+
+	#logo {
+		margin-left: 50px;
+	}
+
+	nav {
+		margin-right: 60px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	header{
+		position: static;
+		width: 100%;
+	}
+
+	nav {
+		text-align: center;
+		width: 100%;
+	}
+
+	#logo {
+		width: 100%;
+	}
+
+	.main-section {
+		max-width: 90%;
+		margin: 20px;
+
+	} 
+
+	.sidebar, .work {
+		max-width: 100%;
+		width: 100%;
+	}
+}
 
 
