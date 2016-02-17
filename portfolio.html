@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nicole Brower</title>
+	<meta charset="UTF-8">
+	<title>About | Nicole Brower
+	</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
-<header>
-	<div id="name">Nicole Brower</div>
 
- 	<span id="navigation">
-			<a href="index.html">About Me</a> | 
-  		 	<a href="portfolio.html">Portfolio</a> | 
-  		   	 <a href="contact.html">Contact</a>
-  	</span>
+<header id="masthead">
+	<div class="container">
+		<a href="index.html" id="logo">Nicole Brower</a>
+	<nav>
+		<a href="index.html">About Me</a> | 
+  		<a href="portfolio.html">Portfolio</a> | 
+  		<a href="contact.html">Contact</a>
+  	</nav>
+  	</div>
+
 </header>
-<section id="content_section">
-		<div id="about_me">
-		<h2>Portfolio</h2>
-			<hr>
-	 	<h3>Coming soon...</h3>
-	    </div>
-<div id="connect_with_me">
-		 <h2>
-		 Connect with me
+
+<div id="main-container" class="container">
+	<section class="main-section">
+		<h1>Portfolio</h1>
+		
+		<div class="work">
+			<img src="assets/images/puppy.jpg" alt="puppy">
+
+				<h3>Puppy</h3>
+		</div>
+		<div class="work">
+			<img src="assets/images/cat.jpg" alt="Cat">
+
+				<h3>Cat</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/rhinos.jpg" alt="Rhinos">
+
+				<h3>Rhinos</h3>
+			</div>
+	 
+	 </section>
+
+	<section class="sidebar">
+		<div id="connect">
+		 
+		 <h2>Connect with me
 		 </h2>
-		 	<hr id="line">
-		<a href="https://github.com/nicole86" target="_blank"> <img src="assets/images/github_icon.png" alt="link to github profile">
+		 
+		<a href="https://github.com/nicole86" target="_blank"> <img src="assets/images/github_icon.png" class="social" alt="link to github profile">
 		</a>
-			<a href="https://www.linkedin.com/pub/nicole-brower/b1/98/76a" target="_blank"> <img src="assets/images/linkedin_icon.png" alt="link to linked in profile">
-			</a>
-		<a href="http://stackoverflow.com/users/5865350/nicole86?tab=profile" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="link to stack overflow profile">
+		
+		<a href="https://www.linkedin.com/pub/nicole-brower/b1/98/76a" target="_blank"> <img src="assets/images/linkedin_icon.png" class="social" alt="link to linked in profile">
 		</a>
+		
+		<a href="http://stackoverflow.com/users/5865350/nicole86?tab=profile" target="_blank"><img src="assets/images/stackoverflow_icon.png" class="social" alt="link to stack overflow profile">
+		</a>
+		</div>
 	</section>
-		<footer>
-			Copyright 2016 Nicole Brower
-		</footer>
+</div>
+<footer>
+	<div class="container">
+	&copy; Copyright 2016 Nicole Brower
+	</div>
+</footer>
 </body>
 </html>
